@@ -182,19 +182,36 @@ body{
     z-index: 1;
     /* Ensure that the content stays above the blurred overlay */
 }
-.home h1{
+.home h1 {
     color: #fff;
     font-size: 5.5rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    /* Efek bayangan hitam */
+    font-weight: bold;
+    /* Menambah ketebalan teks */
+    letter-spacing: 2px;
+    /* Menambah jarak antar huruf */
 }
 
-.home h2{
+.home h2 {
     color: #fff;
     font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    font-style: italic;
+    /* Menambahkan gaya miring */
+    letter-spacing: 1px;
 }
 
-.home h3{
+.home h3 {
     color: #fff;
     font-size: 5rem;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    /* Menambah ketebalan teks */
+    letter-spacing: 3px;
+    /* Menambah jarak antar huruf */
+    text-transform: uppercase;
+    /* Mengubah semua teks menjadi huruf kapital */
 }
 
 .home .wave{
@@ -675,6 +692,7 @@ body{
 .team .row .card .info h3{
     font-size: 2rem;
     color: #333;
+    padding: 0 1rem;
 }
 
 .team .row .card .info span{
