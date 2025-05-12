@@ -23,7 +23,7 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #4c005f;
+    color: #002e5f;
     position: relative;
     letter-spacing: .2rem;
 }
@@ -114,6 +114,14 @@ body{
     top: 0;
     left: 0;
 }
+
+@media (max-width: 768px) {
+    .logo {
+        max-width: 120px;
+        width: 40vw;
+    }
+}
+
 
 .header .navbar ul{
     list-style-type: none;
